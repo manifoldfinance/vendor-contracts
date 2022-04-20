@@ -1,0 +1,11 @@
+[default]
+root = "."
+libs = ['../../node_modules/', '../../']
+src = ['../']
+ffi = true
+verbosity = 3
+remappings = [
+    '@zen-forge/interfaces/=../interfaces',
+    '@zen-forge/mocks=../mocks',
+    '@zen-forge/utils=../utils',
+]
